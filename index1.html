@@ -8,6 +8,7 @@
     <link href="style1.css" rel="stylesheet" type="text/css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script> 
+    
       $(document).ready(function(){
         $("#flip").click(function(){
           $("#panel").slideToggle("slow");
@@ -48,12 +49,28 @@
         <li><a class="" href="index.html"><i class="fas fa-home">Home</i></a></li>
         <li><a  class= "active"href=""><i class="fas fa-ambulance">Prokes</i></a></li>
         <li><a  href=""><i class="fas fa-database">Covid Data</i></a></li>
-        <li><a href=""><i class="fas fa-book">Referensi</i></a></li>
+        <li><a href=""><i class="fas fa-book">About Us</i></a></li>
 
       </ul>
     </nav>
+    <div id="text">
+
+    </div>
+    <script>
+      var i=0,text;
+      text = "Protokol Kesehatan"
+
+      function typing(){
+        if(i<text.length){
+          document.getElementById("text").innerHTML += text.charAt(i);
+          i++;
+          setTimeout(typing,50);
+        }
+      }
+      typing();
+    </script>
     <section class="prokes" id="prokes">
-      <h1 class="heading"> Protokol Kesehatan </h1>
+      <!-- <h1 class="fancy"> Protokol Kesehatan </h1> -->
   
       <div class="box-container">
   
