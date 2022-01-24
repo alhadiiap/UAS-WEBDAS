@@ -1,0 +1,152 @@
+/* general */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none
+  }
+  body{
+    font-family: montserrat;
+    background-color: #575756;
+    background-size:cover;
+    background-position: 0 -100px;;
+    transition: background 0.2s linear;
+  }
+  nav{
+    background-color: #183320;
+    height: 60px;
+    width: 100%;
+  }
+  label{
+    color: #b3e8d4;
+    font-size: 25px;
+    line-height: 80px;
+    padding: 0 8px;
+    font-weight: bold;
+    margin: -5px -3px;
+  }
+  nav ul{
+    float: right;
+    margin-right: 15px;
+  }
+  nav ul li{
+    display: inline-block;
+    margin: -3px 15px;
+    line-height: 80px;
+  }
+  nav ul li a{
+    color: #b3e8d4;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 1s;
+  }
+
+ label i{
+      font-size: larger;
+  }
+  .active{
+      background-color: cadetblue;
+  }
+  a:hover{
+      background-color: darkcyan;
+  }
+
+.marginTopBottom {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.head-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4em;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+.search input{
+    padding: 1em 2em;
+    border-radius: 20px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    margin-right: 8px;
+}
+
+
+::placeholder{
+    color: white;
+    opacity: 0.5;
+}
+
+.data{
+    display: flex;
+}
+
+.data .with-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10em;
+}
+
+.with-text .pd{
+    margin: 1em 0;
+    padding: 1em 4em;
+    border-radius: 10px;
+    background-color: darkcyan;
+}
+
+.with-map{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.with-map .data-result{
+    display: flex;
+}
+
+.data-result .pd{
+    padding: 1em 4em;
+    background-color: darkcyan;
+    margin: 1em;
+    border-radius: 10px;
+}
+
+.to-render{
+    position: relative;
+}
+
+.to-render h4{
+    display: inline-block;
+    padding: 0.4em 2em;
+    border-radius: 20px;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    background-color: #969696;
+}
+
+h1, h2, h5, h4{
+    color: whitesmoke;
+}
+
+h1{
+    text-align: center;
+    left: 50%;
+}
+#text{
+    color: white;
+    font-size:40px;
+    text-align:center;
+    text-transform: uppercase;
+  }
