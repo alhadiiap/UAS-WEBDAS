@@ -66,8 +66,7 @@
     position: relative;
     overflow: hidden;
     text-align: center;
-    animation: prokes 2s ease infinite backwards;
-}
+    animation: prokes 2s ease infinite alternate forwards;
 
 @keyframes prokes {
     0%{
