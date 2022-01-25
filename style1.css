@@ -67,6 +67,7 @@
     overflow: hidden;
     text-align: center;
     animation: prokes 2s ease infinite alternate forwards;
+}
 
 @keyframes prokes {
     0%{
@@ -75,8 +76,8 @@
     100%{
         background-color: beige;
     }
+  }
     
-}
 
 .prokes .box-container .box img{
     height:13rem;
