@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Protokol Kesehatan</title>
+    <link href="style1.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script> 
+    
+      $(document).ready(function(){
+        $("#flip").click(function(){
+          $("#panel").slideToggle("slow");
+        });
+      });
+      $(document).ready(function(){
+        $("#flip2").click(function(){
+          $("#panel2").slideToggle("slow");
+        });
+      });
+      $(document).ready(function(){
+        $("#flip3").click(function(){
+          $("#panel3").slideToggle("slow");
+        });
+      });
+      $(document).ready(function(){
+        $("#flip4").click(function(){
+          $("#panel4").slideToggle("slow");
+        });
+      });
+      $(document).ready(function(){
+        $("#flip5").click(function(){
+          $("#panel5").slideToggle("slow");
+        });
+      });
+      $(document).ready(function(){
+        $("#flip6").click(function(){
+          $("#panel6").slideToggle("slow");
+        });
+      });
+      </script>
+  </head>
+  <body>
+    <nav>
+        <label><i class="fas fa-clinic-medical"></i></label>
+      <label class="logo">Covite</label>
+      <ul>
+        <li><a class="" href="index.html"><i class="fas fa-home">Home</i></a></li>
+        <li><a  class= "active"href=""><i class="fas fa-ambulance">Prokes</i></a></li>
+        <li><a  href="index2.html"><i class="fas fa-database">Covid Data</i></a></li>
+        <li><a href="index4.html"><i class="fas fa-book">About Us</i></a></li>
+
+      </ul>
+    </nav>
+    <div id="text">
+
+    </div>
+    <script>
+      var i=0,text;
+      text = "Protokol Kesehatan"
+
+      function typing(){
+        if(i<text.length){
+          document.getElementById("text").innerHTML += text.charAt(i);
+          i++;
+          setTimeout(typing,50);
+        }
+      }
+      typing();
+    </script>
+    <section class="prokes" id="prokes">
+      <!-- <h1 class="fancy"> Protokol Kesehatan </h1> -->
+  
+      <div class="box-container">
+  
+          <div class="box">
+              <img src="src/pakai masker1.png" alt="">
+              <h3 id="flip">Pakai Masker</h3>
+              <p id="panel">Pada kenyataannya, pandemi yang masih belum usai dan terus memakan korban membuat penggunaan masker pun diwajibkan untuk seluruh lapisan masyarakat. 
+
+                Bahkan, di beberapa negara, Amerika Serikat misalnya, pusat kesehatan setempat mewajibkan masyarakat negara tersebut memakai masker bahkan saat berada di rumah untuk kondisi tertentu. Misalnya: 
+                
+                Ada anggota keluarga yang terserang COVID-19.
+                Ada anggota keluarga yang berisiko terpapar virus corona karena beraktivitas di luar rumah. 
+                Merasakan adanya gejala yang mengarah pada infeksi virus corona. 
+                Ruangan yang sempit.
+                Tidak bisa menjaga jarak dengan anggota keluarga lainnya. </p>
+          </div>
+  
+          <div class="box">
+              <img src="src/cuci tangan1.png" alt="">
+              <h3 id="flip2">Cuci Tangan</h3>
+              <p id="panel2">Mencuci tangan secara rutin menjadi protokol kesehatan 5M yang pertama dan dirasa efektif untuk mencegah penularan virus corona. Agar hasilnya maksimal, kamu disarankan untuk mencuci tangan setidaknya selama 20 detik dengan menggunakan air mengalir dan sabun. Lakukan sesering mungkin, terutama pada kondisi: 
+
+                Sebelum menyentuh makanan.
+                Setelah menggunakan toilet.
+                Setelah menutup hidung saat batuk atau bersin.
+                Setelah beraktivitas di luar ruangan. 
+                Jika tidak ada air yang mengalir, kamu bisa menggunakan produk pembersih tangan yang mengandung alkohol setidaknya dengan kadar sebesar 70 persen. </p>
+          </div>
+  
+          <div class="box">
+              <img src="src/jaga jarak.png" alt="">
+              <h3 id="flip3">Jaga Jarak</h3>
+              <p id="panel3">Protokol kesehatan 5 M selanjutnya adalah menjaga jarak saat sedang beraktivitas di luar ruangan. Adanya aturan ini juga berdasarkan pada Keputusan Menteri Kesehatan RI dalam “Protokol Kesehatan Bagi Masyarakat di Tempat dan Fasilitas Umum Dalam Rangka Pencegahan dan Pengendalian COVID-19.”
+
+                Aturan tersebut menyebutkan, setiap orang wajib menjaga jarak setidaknya sejauh 1 meter dengan orang lain guna mencegah paparan droplets dari orang yang batuk, bersin, atau bicara. Pun, sebaiknya hindari berkerumun, tempat ramai, dan berdesakan. Apabila tidak mungkin menjaga jarak, bisa dibuat rekayasa untuk menghindari risiko paparan. 
+                
+                Rekayasa dalam bentuk administrasi bisa berupa membatasi jumlah orang dalam ruangan atau mengatur ulang jadwal. Sementara itu, rekayasa dalam bentuk teknis bisa dilakukan dengan cara membuat batas atau partisi di ruangan atau mengatur jalur masuk dan keluar di satu tempat. </p>
+          </div>
+  
+          <div class="box">
+              <img src="src/mobilitas.png" alt="">
+              <h3 id="flip4">Membatasi Mobilitas</h3>
+              <p id="panel4">Virus penyebab corona bisa berada di mana saja. Jadi, semakin banyak waktu yang kamu habiskan di luar rumah, maka semakin tinggi pula risiko tubuh terpapar virus jahat ini. Oleh karena itu, bila tidak ada keperluan yang mendesak, tetaplah berada di rumah.
+
+                Menurut Kemenkes, meski sehat dan tidak ada gejala penyakit, belum tentu kamu pulang ke rumah dengan keadaan yang masih sama. Pasalnya, virus corona dapat menyebar dan menginfeksi seseorang dengan sangat cepat.</p>
+          </div>
+  
+          <div class="box">
+              <img src="src/kerumunan.png" alt="">
+              <h3 id="flip5">Menjauhi Kerumunan</h3>
+              <p id="panel5">Selain tiga hal di atas, menjauhi kerumunan juga merupakan protokol kesehatan yang harus dilakukan. Menurut Kementerian Kesehatan RI (Kemenkes), masyarakat diminta untuk menjauhi kerumunan saat berada di luar rumah. Ingat, semakin banyak dan sering kamu bertemu orang, maka kemungkinan terinfeksi virus corona pun semakin tinggi.
+
+                Oleh sebab itu, hindari tempat keramaian terutama bila sedang sakit atau berusia di atas 60 tahun (lansia). Menurut riset, lansia dan pengidap penyakit kronis memiliki risiko yang lebih tinggi terserang virus corona. </p>
+          </div>
+          <div class="box">
+            <img src="src/desinfektan.png" alt="">
+            <h3 id="flip6">Menggunakan Hand Sanitizer</h3>
+            <p id="panel6">Menggunakan Hand Sanitizer sangat penting dalam menanggulangi Pandemi Covid-19</p>
+        </div>
+      </div>
+  
+  </section>
+  </body>
+</html>
